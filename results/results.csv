@@ -1,0 +1,10 @@
+Model,MAE (MW),RMSE (MW),MAPE (%),Peak MAE (MW)
+XGBoost (B: from Apr 2024),522.33,723.25,2.30,461.81
+Random Forest (A: all data),525.33,764.51,2.32,447.69
+XGBoost (A: all data),538.15,739.27,2.38,466.77
+Random Forest (B: from Apr 2024),539.23,787.10,2.38,448.03
+Eskom's own forecast,545.14,730.17,2.40,535.11
+Naive (same hour yesterday),790.21,1120.48,3.50,687.47
+Seasonal naive (same hour last week),836.95,1230.46,3.65,840.90
+Fourier regression (B: from Apr 2024),976.49,1224.86,4.35,679.06
+Fourier regression (A: all data),1141.32,1417.77,5.11,675.29
